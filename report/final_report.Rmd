@@ -1,0 +1,59 @@
+
+---
+title: "F75 Midterm Project"
+author: "DATA 550 Project Team"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE
+)
+```
+
+# Introduction
+
+This project analyzes nutritional and clinical outcomes from a randomized controlled trial comparing modified F75 therapeutic milk with standard F75 in children with severe acute malnutrition.
+
+# Methods
+
+## Study Design and Population
+
+## Baseline Characteristics
+
+## Nutritional Outcomes
+
+## Clinical Outcomes
+
+# Results
+
+## Baseline Characteristics
+
+Baseline characteristics will be summarized by randomized treatment group.
+
+## Nutritional Changes
+
+Changes in weight and mid-upper arm circumference (MUAC) from baseline to stabilization will be evaluated.
+
+## Clinical Outcomes
+
+Clinical outcomes will be summarized and compared between treatment groups.
+
+# Discussion
+
+## Summary of Findings
+
+## Strengths and Limitations
+
+## Conclusion
+
+# Reproducibility
+
+All analyses are conducted using reproducible R scripts and project configuration files.
