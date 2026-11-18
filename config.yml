@@ -1,0 +1,8 @@
+# F75 Midterm Project Configuration
+
+# Treatment group selection:
+# "both" = include both treatment groups
+# "modified" = include modified F75 only
+# "standard" = include standard F75 only
+
+treatment_group: "both"
