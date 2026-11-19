@@ -45,6 +45,11 @@ if (config$treatment_group == "both") {
     select(arm, days_stable2, discharged2, withdraw2) %>%
     tbl_summary(
       by = arm,
+      label = list(
+        days_stable2 ~ "Time to Clinical Stabilization (Days)",
+        discharged2 ~ "Discharged as Planned",
+        withdraw2 ~ "Reason for Not Being Discharged as Planned"
+      ),
       statistic = list(
         days_stable2 ~ "{median} ({p25}, {p75})",
         all_categorical() ~ "{n} ({p}%)"
@@ -61,6 +66,11 @@ if (config$treatment_group == "both") {
     ) %>%
     select(days_stable2, discharged2, withdraw2) %>%
     tbl_summary(
+      label = list(
+        days_stable2 ~ "Time to Clinical Stabilization (Days)",
+        discharged2 ~ "Discharged as Planned",
+        withdraw2 ~ "Reason for Not Being Discharged as Planned"
+      ),
       statistic = list(
         days_stable2 ~ "{median} ({p25}, {p75})",
         all_categorical() ~ "{n} ({p}%)"
